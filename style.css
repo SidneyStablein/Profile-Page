@@ -1,0 +1,52 @@
+/* Add screen styles below */
+a.active {
+    font-weight: bold;
+}
+
+body {
+    background-image: url(ally-griffin-3hsrEvJi_gw-unsplash.jpg);
+    background-size: 100%;
+}
+
+.nav {
+    box-shadow:1px 0px 5px rgb(0, 0, 0, 0.4);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.col {
+    background-color: white;
+    box-shadow:1px 0px 5px rgb(0, 0, 0, 0.4);
+
+}
+
+.second {
+    width: 418px;
+    height: 654px;
+    background-color: white;
+    box-shadow:1px 0px 5px rgb(0, 0, 0, 0.4);
+}
+
+.first {
+    width: 920px;
+    height: 652px;
+    background-color: white;
+    box-shadow:1px 0px 5px rgb(0, 0, 0, 0.4);
+}
+
+.profile {
+    width: 248px;
+    height: 248px;
+}
+
+.posts {
+    width: 859px;
+}
+
+li {
+    list-style: circle;
+}
