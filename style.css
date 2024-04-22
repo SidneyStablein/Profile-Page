@@ -21,7 +21,6 @@ body {
 .col {
     background-color: white;
     box-shadow:1px 0px 5px rgb(0, 0, 0, 0.4);
-
 }
 
 .second {
@@ -29,6 +28,11 @@ body {
     height: 654px;
     background-color: white;
     box-shadow:1px 0px 5px rgb(0, 0, 0, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: center;
+    margin-left: 30px;
 }
 
 .first {
@@ -36,17 +40,28 @@ body {
     height: 652px;
     background-color: white;
     box-shadow:1px 0px 5px rgb(0, 0, 0, 0.4);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .profile {
     width: 248px;
     height: 248px;
+    margin-bottom: 30px;
 }
 
 .posts {
     width: 859px;
+    margin-bottom: 20px;
+}
+
+ol {
+
+    text-align: left;
+    margin-top: 60px;
 }
 
 li {
-    list-style: circle;
+    list-style:url(star.svg)
 }
